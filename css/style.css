@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+}
+
+body {
+  background: url(../images/background_widget.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+li:nth-child(even) {
+  background-color: #f2f6ff;
+}
+
+.cities {
+  font-size: 24px;
+  width: 600px;
+  height: 350px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 21px rgba(0, 0, 0, 0.44);
+  background-color: white;
+  overflow: auto;
+  padding: 15px;
+  overflow: auto;
+}
